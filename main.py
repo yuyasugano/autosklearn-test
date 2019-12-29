@@ -20,6 +20,7 @@ def main():
     print(ret)
 
 if __name__ == '__main__':
+    print("Started...")
     start = time.time()
     main()
     elapsed_time = time.time() - start
